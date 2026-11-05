@@ -16,12 +16,11 @@ This will create a `traffic-logs` folder which will contain following:<br>
 `error.log` - Problems encountered by the monitor.
 
 When running, will display a table of unique traffic:
-
+![Traffic Monitor Screenshow](traffic-monitor.png)
 In the image above:
 `10.2.2.2` my local VPN IP address.<br>
 `224.0.0.252` OS systemd-resolved (local UDP network traffic)<br>
 `172.64.155.209` Cloudflare IP address (DNS server)<br>
-
 
 If pktmon failed to clean up in the background run this command in an elevated powershell window:
 ```
